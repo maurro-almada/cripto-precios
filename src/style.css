@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#000000;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+header{
+    text-align: end;
+    margin: 15px;
+}
+a{
+
+    margin: 15px;
+
+    color: #000000;
+    background-color: #FFC914;
+    justify-content: center;
+    width: 20px;
+    padding: 10px 20px;
+    border: 1px solid #0F0E0E;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Cuprum', sans-serif;
+    transition: background-color 0.8s ease;
+    
+
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+    
+    
+    font-family: 'Cuprum', sans-serif;
+    /*font-family: 'Teko', sans-serif;*/
+    font-size: 4rem;
+}
+
+div{
+    margin: auto;
+    display: flexbox;
+    justify-content: space-around;
+    display: inline-flex;
+
+    flex-wrap: wrap;
+    width: 250px;
+    height: 450px;
+    margin-bottom: 20px;
+    border: white 1px solid;
+
+
+}
+img{
+    display: block;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+}
+div.coins{
+    align-items: center;
+    display: block;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#main_coins{
+    
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+
+
+
+}
+.nombre{
+    margin: auto;
+    color: #FFC914;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: 'Cuprum', sans-serif;
+}
+p{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.precio{
+    font-family:  'Cuprum', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    a{
+        display: flexbox;
+        
+        margin: 10px;
+        width: 10px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 400; 
+        margin: auto;
+    }
+    header{
+
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        margin: 2rem;
+        color: white;
+        
+        
+        font-family: 'Cuprum', sans-serif;
+        /*font-family: 'Teko', sans-serif;*/
+        font-size: 2rem;  
+    }
+ }
